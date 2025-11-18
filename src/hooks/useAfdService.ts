@@ -1,9 +1,7 @@
-const URL_BASE:string = `http://172.19.3.52:3333`
-
 import { useState } from 'react';
 import type { UploadResponse, SaveResponse } from '../types/index';
 
-const API_BASE_URL = `http://172.19.3.52:3333/api/v1/afd-registros`;
+const API_BASE_URL = `http://localhost:3333/api/v1/afd-registros`;
 
 export const useAfdService = () => {
   const [loading, setLoading] = useState<boolean>(false);
